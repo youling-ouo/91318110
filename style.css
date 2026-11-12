@@ -1,0 +1,25 @@
+body {
+    background-color: lightyellow;
+    text-align: center;
+    padding: 20px;
+}
+
+.poem-title {
+    color: red;
+    font-size: 36pt;
+    margin-bottom: 20px;
+}
+
+.poem-content {
+    color: brown;
+    font-size: 24pt;
+    line-height: 1.6;
+}
+
+.poet-img {
+    width: 200px;
+    border: 3px solid saddlebrown;
+    border-radius: 20px;
+    display: block;
+    margin: 20px auto;
+}

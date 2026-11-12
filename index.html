@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>個人網頁</title>
+    <style>
+        body {
+            font-family: "Microsoft JhengHei", Arial, sans-serif;
+            background-color: #f4f7f6;
+            margin: 0;
+            padding: 50px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* 共用的卡片區塊樣式 */
+        .card {
+            background-color: #ffffff;
+            width: 100%;
+            max-width: 400px;
+            padding: 30px;
+            margin-bottom: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            text-align: center;
+        }
+
+        /* 個人資料區塊：藍色、置中 */
+        .profile {
+            color: blue;
+            text-align: center;
+            margin-top: 0;
+        }
+
+        .profile h1 {
+            margin-bottom: 15px;
+        }
+
+        .profile h2 {
+            font-size: 20px;
+            margin: 10px 0;
+        }
+
+        .links {
+            text-align: center;
+            margin-top: 0;
+            font-size: 20px;
+        }
+
+        .links p {
+            margin: 15px 0;
+        }
+
+        /* 連結按鈕樣式 */
+        .links a {
+            display: inline-block;
+            padding: 10px 25px;
+            background-color: #f0f4f8;
+            color: blue; /* 未點擊時的藍色文字 */
+            text-decoration: none;
+            border: 2px solid blue;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: background-color 0.2s, transform 0.2s;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        /* 已點擊過的超連結字樣變色（例如變成紫色） */
+        .links a:visited {
+            color: purple;
+            border-color: purple; /* 也可以讓邊框跟著變色，若只要字變色可刪除這行 */
+        }
+
+        .links a:hover {
+            background-color: #e2e8f0;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card profile">
+        <h1>個人資料</h1>
+        <h2>學號: 91318110</h2>
+        <h2>姓名: 陳哲輝</h2>
+    </div>
+
+    <div class="card links">
+        <p><a href="poem1.html">詩的賞析1</a></p>
+        <p><a href="poem2.html">詩的賞析2</a></p>
+    </div>
+
+</body>
+</html>
